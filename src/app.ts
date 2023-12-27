@@ -52,6 +52,7 @@ if(secret) {
 
 	app.register(userRoutes, {prefix: 'api/users'});
 
+	// loop through schemas and add to the app
 	for (let schema of [...userSchemas]) {
 		app.addSchema(schema);
 	}

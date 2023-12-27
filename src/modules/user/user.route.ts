@@ -1,4 +1,4 @@
-import {FastifyInstance, FastifyRequest, FastifyReply} from 'fastify';
+import {FastifyInstance} from 'fastify';
 import { $ref } from './user.schema';
 
 import {createUser, getUsers, login, logout} from './user.controller';

@@ -1,4 +1,4 @@
-import { JWT, FastifyJWT } from '@fastify/jwt';
+import { JWT } from '@fastify/jwt';
 
 declare module 'fastify' {
 	interface FastifyRequest {
